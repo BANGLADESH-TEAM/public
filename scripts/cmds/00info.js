@@ -20,9 +20,9 @@ module.exports = {
   onStart: async function ({ api, event }) {
     try {
       // 🌟 ADMIN INFO MESSAGE
-      let message = `╭━━━━━━━━━━━━━━━━━━━╮
+      let message = `╭━━━━━━━━━━━━━━━━╮
    🌟 𝗔𝗗𝗠𝗜𝗡 𝗜𝗡𝗙𝗢 🌟
- ╰━━━━━━━━━━━━━━━━━━━╯
+ ╰━━━━━━━━━━━━━━━━╯
 
       📌 𝗡𝗔𝗠𝗘: 𝗔𝗛𝗠𝗘𝗗 𝗕𝗔𝗬𝗝𝗜𝗗  
       🌍 𝗖𝗢𝗨𝗡𝗧𝗥𝗬: 𝗕𝗔𝗡𝗚𝗟𝗔𝗗𝗘𝗦𝗛  
