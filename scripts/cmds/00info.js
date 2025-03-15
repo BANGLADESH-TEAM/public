@@ -19,7 +19,7 @@ module.exports = {
 
   onStart: async function ({ api, event }) {
     try {
-      // 🌟 ADMIN INFO MESSAGE
+      
       let message = `╭━━━━━━━━━━━━━━━━╮
    🌟 𝗔𝗗𝗠𝗜𝗡 𝗜𝗡𝗙𝗢 🌟
  ╰━━━━━━━━━━━━━━━━╯
