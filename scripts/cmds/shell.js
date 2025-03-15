@@ -11,13 +11,13 @@ module.exports = {
     longDescription: "",
     category: "shell",
     guide: {
-      vi: "{p}{n} <command>",
-      en: "{p}{n} <command>"
+      vi: "<command>",
+      en: "<command>"
     }
   },
 
   onStart: async function ({ args, message }) {
-    const command = args.join(" ");
+    const command = args.join(" ");  // Directly takes command, no prefix needed
 
     if (!command) {
       return message.reply("Please provide a command to execute.");
